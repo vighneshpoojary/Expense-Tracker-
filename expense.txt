@@ -1,0 +1,10 @@
+101,18-07-2026,Food,Lunch,120
+102,18-07-2026,Travel,Bus Ticket,30
+103,19-07-2026,Shopping,Notebook,60
+104,19-07-2026,Food,Dinner,180
+105,20-07-2026,Medical,Medicine,450
+106,20-07-2026,Entertainment,Movie Ticket,250
+107,21-07-2026,Travel,Auto Fare,80
+108,21-07-2026,Bills,Electricity Bill,1500
+109,22-07-2026,Food,Breakfast,90
+110,22-07-2026,Shopping,Pen Drive,650
