@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Search Expense</title>
+</head>
+
+<body>
+
+    <h2>Search Expense</h2>
+
+    <form method="POST">
+
+        <label>Search By</label>
+
+        <br>
+
+        <select name="search">
+
+            <option value="id">Expense ID</option>
+            <option value="date">Date</option>
+            <option value="category">Category</option>
+
+        </select>
+
+        <br><br>
+
+        <label>Enter Value</label>
+
+        <br>
+
+        <input type="text" name="value">
+
+        <br><br>
+
+        <input type="submit" value="Search">
+
+    </form>
+
+    <br>
+
+    <table border="1">
+
+        <tr>
+            <th>Expense ID</th>
+            <th>Date</th>
+            <th>Category</th>
+            <th>Description</th>
+            <th>Amount</th>
+        </tr>
+
+        {% for expense in expenses %}
+
+        <tr>
+
+            <td>{{ expense.expense_id }}</td>
+
+            <td>{{ expense.expense_date }}</td>
+
+            <td>{{ expense.category }}</td>
+
+            <td>{{ expense.description }}</td>
+
+            <td>{{ expense.amount }}</td>
+
+        </tr>
+
+        {% endfor %}
+
+    </table>
+
+    <br>
+
+    <a href="/">Home</a>
+
+</body>
+
+</html>

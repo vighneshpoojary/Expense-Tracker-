@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Modify Expense</title>
+</head>
+
+<body>
+
+    <h2>Modify Expense</h2>
+
+    <form method="POST">
+
+        <label>Expense ID</label>
+
+        <br>
+
+        <input type="text" name="expense_id">
+
+        <br><br>
+
+        <label>New Date</label>
+
+        <br>
+
+        <input type="date" name="expense_date">
+
+        <br><br>
+
+        <label>New Category</label>
+
+        <br>
+
+        <input type="text" name="category">
+
+        <br><br>
+
+        <label>New Description</label>
+
+        <br>
+
+        <input type="text" name="description">
+
+        <br><br>
+
+        <label>New Amount</label>
+
+        <br>
+
+        <input type="number" name="amount">
+
+        <br><br>
+
+        <input type="submit" value="Modify Expense">
+
+    </form>
+
+    <br>
+
+    <h3>{{ message }}</h3>
+
+    <br>
+
+    <a href="/">Home</a>
+
+</body>
+
+</html>
